@@ -24,5 +24,17 @@
     "type": "java.lang.Boolean",
     "description": "Enable Spring Cloud Discovery support.",
     "defaultValue": "true"
+  },
+  {
+    "name": "spring.boot.admin.redis.enabled",
+    "type": "java.lang.Boolean",
+    "description": "Enable Redis support.",
+    "defaultValue": "true"
+  },
+  {
+    "name": "spring.boot.admin.redis.prefix",
+    "type": "java.lang.String",
+    "description": "Prefix for the Redis namespace for storing applications and the journal",
+    "defaultValue": "spring-boot-admin:"
   }
 ]}
